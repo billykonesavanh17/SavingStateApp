@@ -13,7 +13,7 @@ public class AndroidSaveState
 
     public AndroidSaveState()
     {
-        this.userName = "defaust";
+        this.userName = "default";
         this.isTired = false;
         this.age = -0;
     }
@@ -48,7 +48,7 @@ public class AndroidSaveState
         this.age = age;
     }
 
-    
+
 
 }
 
