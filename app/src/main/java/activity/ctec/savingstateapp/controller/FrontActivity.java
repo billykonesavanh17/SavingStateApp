@@ -54,6 +54,12 @@ public class FrontActivity extends Activity
                 saveState.setUserName(name);
                 saveState.setIsTired(tired);
 
+                //Clear Fields
+                nameText.setText("");
+                ageText.setText("");
+                tiredBox.setChecked(false);
+
+
                 //Open new screen
                 Intent newScreenIntent = new Intent(clickView.getContext(), BackPageActivity.class);
                 startActivityForResult(newScreenIntent, 0);
