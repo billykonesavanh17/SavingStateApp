@@ -5,7 +5,8 @@ import android.app.Application;
 /**
  * Created by bkon4208 on 10/14/15.
  */
-public class AndroidSaveState
+public class AndroidSaveState extends Application
+
 {
     private String userName;
     private boolean isTired;
